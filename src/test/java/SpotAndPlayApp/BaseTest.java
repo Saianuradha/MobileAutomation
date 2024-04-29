@@ -23,7 +23,7 @@ public class BaseTest {
     public AndroidDriver driver;
     public AppiumDriverLocalService service;
 
-@BeforeClass
+@BeforeMethod
      public void ConfigureAppium() throws MalformedURLException, URISyntaxException {
         // start appium server
         service = new AppiumServiceBuilder()
@@ -67,7 +67,7 @@ public class BaseTest {
         ));
     }
 
-    @AfterClass
+    @AfterMethod
     public void TearDown() {
         // stop server
         driver.quit();
