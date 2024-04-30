@@ -1,0 +1,11 @@
+{
+  "validLoginDetails": {
+    "email": "testm04@gmail.comom",
+    "password": "Test@1234"
+  },
+  "invalidLoginDetails": {
+    "email": "sai@gmail.com",
+    "password": "secret_sauce"
+  }
+
+}
